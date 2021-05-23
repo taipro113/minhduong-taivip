@@ -482,6 +482,7 @@ $xu   = explode(' เหรียญ</', $xu)[0];
 $usd  = explode('<div class="col-9 no-space">ยอดเงินในบัญชี <div><b class="text-success">', $mr2)[1];
 $usd  = explode('<', $usd)[0];
 $date = date('H:i:s');
+echo $t64;
 if($ty == "success"){
 echo "\033[1;36m[$date]\033[1;37m•\033[1;35m[\033[1;32m".$name."\033[1;35m]\033[1;33m•\033[1;34m[\033[1;33mSố dư:".$usd."\033[1;34m]\033[1;36m•\033[1;37m[\033[1;35m".$id."\033[1;37m]\033[1;31m•\033[1;35m[\033[1;32m".$xu."\033[1;35m]\n";
 for($i=$time;$i>-1;$i--){

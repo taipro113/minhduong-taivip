@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
@@ -211,7 +212,7 @@ body.is-loading #bg:before{background-color:#000}
 }
 #header{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;-moz-flex-direction:column;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-moz-align-items:center;-webkit-align-items:center;-ms-align-items:center;align-items:center;-moz-transition:-moz-transform .325s ease-in-out,-moz-filter .325s ease-in-out,opacity .325s ease-in-out;-webkit-transition:-webkit-transform .325s ease-in-out,-webkit-filter .325s ease-in-out,opacity .325s ease-in-out;-ms-transition:-ms-transform .325s ease-in-out,-ms-filter .325s ease-in-out,opacity .325s ease-in-out;transition:transform .325s ease-in-out,filter .325s ease-in-out,opacity .325s ease-in-out;background-image:-moz-radial-gradient(rgba(0,0,0,0.25) 25%,transparent 55%);background-image:-webkit-radial-gradient(rgba(0,0,0,0.25) 25%,transparent 55%);background-image:-ms-radial-gradient(rgba(0,0,0,0.25) 25%,transparent 55%);background-image:radial-gradient(rgba(0,0,0,0.25) 25%,transparent 55%);max-width:100%;text-align:center}
 #header > *{-moz-transition:opacity .325s ease-in-out;-webkit-transition:opacity .325s ease-in-out;-ms-transition:opacity .325s ease-in-out;transition:opacity .325s ease-in-out;position:relative;margin-top:3.5rem}
-#header > :before{content:'';display:block;position:absolute;top:calc(-3.5rem - 1px);left:calc(50% - 1px);width:1px;height:calc(3.5rem + 1px);background:#fff}
+#header > :before{content:'';display:block;position:absolute;top:calc(-3.5rem - 1px);left:calc(50% - 1px);width:0px;height:calc(3.5rem + 1px);background:#fff}
 #header > :first-child{margin-top:0}
 #header > :first-child:before{display:none}
 #header .logo{width:5.5rem;height:5.5rem;line-height:5.5rem;border:solid 1px #fff;border-radius:100%}
@@ -220,7 +221,7 @@ body.is-loading #bg:before{background-color:#000}
 #header .content .inner{-moz-transition:max-height .75s ease,padding .75s ease,opacity .325s ease-in-out;-webkit-transition:max-height .75s ease,padding .75s ease,opacity .325s ease-in-out;-ms-transition:max-height .75s ease,padding .75s ease,opacity .325s ease-in-out;transition:max-height .75s ease,padding .75s ease,opacity .325s ease-in-out;-moz-transition-delay:.25s;-webkit-transition-delay:.25s;-ms-transition-delay:.25s;transition-delay:.25s;padding:3rem 2rem;max-height:40rem;overflow:hidden}
 #header .content .inner > :last-child{margin-bottom:0}
 #header .content p{text-transform:uppercase;letter-spacing:.2rem;font-size:.8rem;line-height:2}
-#header nav ul{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;margin-bottom:0;list-style:none;padding-left:0;border:solid 1px #fff;border-radius:4px}
+#header nav ul{display:-moz-flex;display:-webkit-flex;display:-ms-flex;display:flex;margin-bottom:0;list-style:none;border:solid 1px #fff;border-radius:4px}
 #header nav ul li{padding-left:0;border-left:solid 1px #fff}
 #header nav ul li:first-child{border-left:0}
 #header nav ul li a{display:block;min-width:7.5rem;height:2.75rem;line-height:2.75rem;padding:0 1.25rem 0 1.45rem;text-transform:uppercase;letter-spacing:.2rem;font-size:.8rem;border-bottom:0}
@@ -282,7 +283,7 @@ a:hover,li:hover,p:hover,.span:hover{cursor:url(https://lh4.googleusercontent.co
 <div id='wrapper'>
 <header id='header'>
 <div class='logo'>
-<span class='icon fa-facebook'></span>
+<img class="icon" style="width: 4.5rem;height: 4.5rem;border-radius: 100%;" src="https://twemoji.maxcdn.com/2/svg/1f47d.svg">
 </div>
 <div class='content'>
 <div class='inner'>
@@ -291,6 +292,7 @@ a:hover,li:hover,p:hover,.span:hover{cursor:url(https://lh4.googleusercontent.co
 Welcome To My Website Profile</p>
 </div>
 </div>
+
 <nav>
 <ul>
 <li><a href='#gioithieu'>Giới Thiệu</a></li>
